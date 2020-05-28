@@ -4,6 +4,7 @@ All notable, unreleased changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+- Make dataCy mandatory on inputs - #743 by @krzysztofwolski
 - Add Cypress tags to all of the buttons (also speed up tests) - #718 by @krzysztofwolski
 - Automatically choose variant attributes from url in ProductVariantPicker - #708 by @AlicjaSzu
 
