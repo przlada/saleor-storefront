@@ -29,6 +29,7 @@ const LoginForm: React.FC<ILoginForm> = ({ hide }) => {
         onSubmit={handleOnSubmit}
       >
         <TextField
+          dataCy="loginFormEmailField"
           name="email"
           autoComplete="email"
           label="Email Address"
@@ -36,6 +37,7 @@ const LoginForm: React.FC<ILoginForm> = ({ hide }) => {
           required
         />
         <TextField
+          dataCy="loginFormPasswordField"
           name="password"
           autoComplete="password"
           label="Password"
